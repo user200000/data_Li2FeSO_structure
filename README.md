@@ -30,7 +30,7 @@ Fitting and all subsequent calculations are performed using the [icet library](h
 
 ## MC
 
-Monte Carlo simulations are performed for 8&times;8&times;8 supercells using the two fitted cluster expansions using the mchammer library installed as part of icet. The monte carlo simulation outputs mc data container objects which are then processed by polyhedral.py using the [polyhedral analysis library] (https://polyhedral-analysis.readthedocs.io/en/latest/) to octahedral population figures.
+Monte Carlo simulations are performed for 8&times;8&times;8 supercells using the two fitted cluster expansions using the mchammer library installed as part of icet. The monte carlo simulation outputs mc data container objects which are then processed by polyhedral.py using the [polyhedral analysis library](https://polyhedral-analysis.readthedocs.io/en/latest/) to octahedral population figures.
 
 ## Enumeration
 
