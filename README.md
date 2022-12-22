@@ -18,11 +18,11 @@ Authors:
 ## Summary
 
 
-This repository contains the analytical workflow for our preprint entitled "Anion-polarisation--directed short-range-order" in antiperovskite Li2FeSO [LINK GOES HERE]. The workflow consits of three main componanents. Fitting, Enumeration and Monte Carlo (MC), which are each applied to coulombic and cluster expansion system. A random arrangement of cations is also generated for comparison with the monte carlo. There are three main subsections of the workflow fitting, mc, and enumeration each will be described briefly there is a workflow diagram at the base of the page. A conda yaml file is provided describing the exact environments in which calculations were intially run.
+This repository contains the analytical workflow for our preprint entitled "Anion-polarisation--directed short-range-order in antiperovskite Li2FeSO” [LINK GOES HERE]. The workflow consists of three main components. Fitting, Enumeration and Monte Carlo (MC), which are each applied to coulombic and cluster expansion system. A random arrangement of cations is also generated for comparison with the monte carlo. There are three main subsections of the workflow fitting, mc, and enumeration each will be described briefly there is a workflow diagram at the base of the page. A conda yaml file is provided describing the exact environments in which calculations were initially run.
 
 ## Fitting
 
-Fitting and all subsequent calculations are performed using the [icet library](https://icet.materialsmodeling.org). Data from DFT calculations are input as jsons and fit using the python scripts. The output from this step is cluster expansion object for DFT energies. In parallel a cluster expansion is fit using Ewald energies in the coulomb directory.
+Fitting and all subsequent calculations are performed using the [icet library](https://icet.materialsmodeling.org). Data from DFT calculations are input as jsons and fit using the python scripts. The output from this step is cluster expansion object for DFT energies. In parallel a cluster expansion is fit using Ewald energies in the coulomb tab.
 
 ## MC
 
