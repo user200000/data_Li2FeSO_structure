@@ -22,7 +22,7 @@ This repository contains the analytical workflow for our preprint entitled "Anio
 
 ## Fitting
 
-Fitting and all subsequent calculations are performed using the [icet library](https://icet.materialsmodeling.org). Data from DFT calculations are input as jsons and fit using the python scripts. The output from this step is cluster expansion object for DFT energies. In parallel a cluster expansion is fit using Ewald energies in the coulomb tab.
+Fitting and all subsequent calculations are performed using the [icet library](https://icet.materialsmodeling.org). Data from DFT calculations are input as jsons and fit using the python scripts. The output from this step is cluster expansion object for DFT energies. In parallel a cluster expansion is fit using Ewald energies in the coulomb directory.
 
 ## MC
 
