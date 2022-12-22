@@ -30,7 +30,7 @@ Monte carlo simulations are performed for 8x8x8 supercells using the two fitted 
 
 ## Enumeration
 
-The final stage, enumeration, focusses on the direct calculation of the partition function. In enumeration.py the different supercells of a 2x2x2 expansion of the Li2FeSO primitive are obtained using [bsymm](https://joss.theoj.org/papers/10.21105/joss.00370), the degeneracy of structures is obtained using this process. The energies of these structures are calculated along with key structural parameters used to obtain order parameters. In two subsequent scripts violins.py and paramaters_and_cdos.py we obtain Fig. 3 and Fig. 7 directly. paramaters_and_cdos.py handles the calculation of temperature dependent order parameters and the thermal population density of states at 1025K for both cluster expansions.
+The final stage, enumeration, focusses on the direct calculation of the partition function. In enumeration.py the different supercells of a 2x2x2 expansion of the Li2FeSO primitive are obtained using [bsym](https://joss.theoj.org/papers/10.21105/joss.00370), the degeneracy of structures is obtained using this process. The energies of these structures are calculated along with key structural parameters used to obtain order parameters. In two subsequent scripts violins.py and paramaters_and_cdos.py we obtain Fig. 3 and Fig. 7 directly. paramaters_and_cdos.py handles the calculation of temperature dependent order parameters and the thermal population density of states at 1025K for both cluster expansions.
 
 ## Workflow scheme
 
