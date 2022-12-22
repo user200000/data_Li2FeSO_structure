@@ -26,15 +26,15 @@ A conda yaml file is provided describing the exact environments in which calcula
 
 ## Fitting
 
-Fitting and all subsequent calculations are performed using the [icet library](https://icet.materialsmodeling.org). Data from DFT calculations are input in json format and fit using the python scripts. The output from this step is a cluster expansion object for DFT energies. In parallel a cluster expansion is fit using Ewald energies in the coulomb tab.
+Fitting and all subsequent calculations are performed using the [icet](https://icet.materialsmodeling.org) linrary. Data from DFT calculations are input in json format and fit using the python scripts. The output from this step is a cluster expansion object for DFT energies. In parallel a cluster expansion is fit using Ewald energies in the coulomb tab.
 
 ## MC
 
-Monte Carlo simulations are performed for 8&times;8&times;8 supercells using the two fitted cluster expansions using the mchammer library installed as part of icet. The monte carlo simulation outputs mc data container objects which are then processed by polyhedral.py using the [polyhedral analysis library](https://polyhedral-analysis.readthedocs.io/en/latest/) to octahedral population figures.
+Monte Carlo simulations are performed for 8&times;8&times;8 supercells using the two fitted cluster expansions using the mchammer library installed as part of icet. The Monte Carlo simulation outputs mc data container objects which are then processed by polyhedral.py using the [polyhedral analysis](https://polyhedral-analysis.readthedocs.io/en/latest/) library to generate the octahedral coordination population figures.
 
 ## Enumeration
 
-The final stage, enumeration, focusses on the direct calculation of the partition function. In enumeration.py the different supercells of a 2&times;2&times;2 expansion of the Li2FeSO primitive are obtained using [bsym](https://joss.theoj.org/papers/10.21105/joss.00370), the degeneracy of structures is obtained using this process. The energies of these structures are calculated along with key structural parameters used to obtain order parameters. In two subsequent scripts violins.py and paramaters_and_cdos.py we obtain Fig. 3 and Fig. 7 directly. paramaters_and_cdos.py handles the calculation of temperature dependent order parameters and the thermal population density of states at 1025 K for both cluster expansions.
+The final stage, enumeration, focusses on the direct calculation of the partition function. In enumeration.py the different supercells of a 2&times;2&times;2 expansion of the Li2FeSO primitive are obtained using [bsym](https://joss.theoj.org/papers/10.21105/joss.00370), the degeneracy of structures is obtained using this process. The energies of these structures are calculated along with key structural parameters used to obtain order parameters. In two subsequent scripts violins.py and parameters_and_cdos.py we obtain Fig. 3 and Fig. 7 directly. paramaters_and_cdos.py handles the calculation of temperature dependent order parameters and the thermal population density of states at 1025 K for both cluster expansions.
 
 ## Workflow scheme
 
