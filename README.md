@@ -1,4 +1,5 @@
 # Data analysis for &ldquo;Anion-polarisation&mdash;directed short-range-order in antiperovskite Li<sub>2</sub>FeSO&rdquo;
+[![DOI](https://zenodo.org/badge/580436866.svg)](https://zenodo.org/badge/latestdoi/580436866)
 
 Authors:
 - Samuel W. Coles (Wrote workflow)
