@@ -17,7 +17,7 @@ Authors:
 
 ## Summary
 
-This repository contains the analysis workflow for our preprint "Anion-polarisation&mdash;directed short-range-order in antiperovskite Li<sub>2</sub>FeSO” [LINK GOES HERE].
+This repository contains the analysis workflow for our paper ["Anion-polarisation&mdash;directed short-range-order in antiperovskite Li<sub>2</sub>FeSO”](https://doi.org/10.1039/D2TA10037A) published with the Journal Of Materials Chemistry A.
 
 The workflow consists of three main components: fitting, enumeration, and Monte Carlo (MC), with each applied to a point-charge model and DFT-derived cluster expansion model. A random arrangement of cations is also generated for comparison with the Monte Carlo data. 
 
